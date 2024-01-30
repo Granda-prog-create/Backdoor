@@ -4,7 +4,7 @@ import termcolor
 from termcolor import colored
 import json 
 import os 
-import subprocess
+import subprocess 
 
 #Receber os valores da informação
 def data_recv():

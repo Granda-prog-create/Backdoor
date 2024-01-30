@@ -3,7 +3,7 @@ import socket
 import json 
 import os 
 import subprocess
-import pyautogui
+import pyautogui 
 
 #Enviar os dados
 def data_send(data):
